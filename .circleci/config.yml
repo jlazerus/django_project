@@ -46,7 +46,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            pipenv run python manage.py test
+            pipenv run python ~/django_project/manage.py test
 
       - store_artifacts:
           path: test-reports
